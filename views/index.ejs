@@ -1,0 +1,10 @@
+<%- include('header')%>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       <!--<%= content%> --> <!--This will render html tags as plain text-->
+        <!----> 
+        <div id="root">
+            <%-content%> <!--dash template tag will render the HTML properyl-->
+        </div>
+<%- include ('footer')%>

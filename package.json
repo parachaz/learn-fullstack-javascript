@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/parachaz/learn-fullstack-javascript#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mongodb": "^3.6.1",
     "prop-types": "^15.7.2",
@@ -34,14 +35,14 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/node": "^7.x",
     "@babel/core": "^7.11.6",
+    "@babel/node": "^7.x",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "eslint": "^7.8.1",
+    "eslint": "^7.9.0",
     "eslint-plugin-react": "^7.20.6",
     "nodemon": "^2.0.4",
     "webpack": "^4.44.1",
